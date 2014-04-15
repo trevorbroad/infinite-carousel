@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+#infinite-carousel {
+  overflow:hidden;
+  margin:0 auto;    
+}
+
+#infinite-carousel ul#infinite-thumbs {
+  white-space:nowrap;    
+}
+
+#infinite-carousel ul#infinite-thumbs li {
+	display:inline-block;
+	padding:50px 70px;    
+}
+
+#infinite-carousel ul#infinite-thumbs li img {
+	cursor:pointer;
+}  
+
+#infinite-carousel ul#infinite-content {
+	text-align:center;
+  height:80px;  
+}
+  
+#infinite-carousel ul#infinite-content li {
+  display:none;
+}
