@@ -5,17 +5,26 @@
   margin:0 auto;    
 }
 
+
+
 #infinite-carousel ul#infinite-thumbs {
   white-space:nowrap;    
+  padding:0;
 }
 
 #infinite-carousel ul#infinite-thumbs li {
 	display:inline-block;
-	padding:50px 70px;    
+	/* padding:50px 70px; */
+	padding:1px;
+	    
 }
 
 #infinite-carousel ul#infinite-thumbs li img {
 	cursor:pointer;
+}
+
+#infinite-carousel ul#infinite-thumbs li img.hover {
+	opacity:1!important;
 }  
 
 #infinite-carousel ul#infinite-content {

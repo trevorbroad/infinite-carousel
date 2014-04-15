@@ -12,7 +12,11 @@
 	
 <script type="text/javascript">
 	$(function(){
-		$('#infinite-carousel').infiniteCarousel();
+		$('#infinite-carousel').infiniteCarousel({
+			thumbsVisible:    10,
+			transitionTime:   400,//,
+			//centerClicked:		false,
+		});	
 	});			
 </script>	
 	
@@ -22,10 +26,16 @@
 		<li data-index="2"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-12.jpg" width="290" height="290" alt=""></a></li>
 		<li data-index="3"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-11.jpg" width="290" height="290" alt=""></a></li>
 		<li data-index="4"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-10.jpg" width="290" height="290" alt=""></a></li>
-		<li data-index="5"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-7.jpeg" width="290" height="290" alt=""></a></li>		    
-	</ul>	
+		<li data-index="5"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-7.jpeg" width="290" height="290" alt=""></a></li>			
+		<li data-index="6"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-13.jpg" width="290" height="290" alt=""></a></li>
+		<li data-index="7"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-12.jpg" width="290" height="290" alt=""></a></li>
+		<li data-index="8"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-11.jpg" width="290" height="290" alt=""></a></li>
+		<li data-index="9"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-10.jpg" width="290" height="290" alt=""></a></li>
+		<li data-index="10"><a href="#"><img src="https://www.mogo.ca/images/fms/social_carousel/instagram-7.jpeg" width="290" height="290" alt=""></a></li>				    
+	</ul>		
 	
 	<div style="clear:both;"></div>
+
 	
 	<!--<div class="row">	
 		<ul id="infinite-content">  																								
@@ -38,5 +48,9 @@
 		</ul>
 	</div>-->
 </div>
+
+<div id="infinite-nav-left" class="left" style="float:left;"><a href="#">Left</a></div>
+<div id="infinite-nav-right" class="right" style="float:right;"><a href="#">Right</a></div>
+	
 </body>
 </html>
